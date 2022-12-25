@@ -42,6 +42,7 @@ blockquote, q {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+  p{width:50%}
 
 body {
   -webkit-text-size-adjust: none; }
