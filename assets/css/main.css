@@ -42,7 +42,7 @@ blockquote, q {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-  p{width:50%}
+  p{width:40%}
 
 body {
   -webkit-text-size-adjust: none; }
@@ -563,7 +563,8 @@ label {
     -ms-transform: scale(1);
     transform: scale(1); } }
 
-input[type="text"],
+  #signup-form input[type="text"],
+  input[type="date"],
 input[type="password"],
 input[type="email"],
 select,
@@ -591,12 +592,14 @@ textarea {
   text-decoration: none;
   width: 100%; }
   input[type="text"]:invalid,
+  input[type="date"]:invalid,
   input[type="password"]:invalid,
   input[type="email"]:invalid,
   select:invalid,
   textarea:invalid {
     box-shadow: none; }
   input[type="text"]:focus,
+  input[type="date"]:focus,
   input[type="password"]:focus,
   input[type="email"]:focus,
   select:focus,
@@ -625,6 +628,7 @@ select {
     display: none; }
 
 input[type="text"],
+input[type="date"],
 input[type="password"],
 input[type="email"],
 select {
@@ -807,6 +811,7 @@ button,
   display: flex;
   position: relative; }
   #signup-form input[type="text"],
+  #signup-form input[type="date"],
   #signup-form input[type="password"],
   #signup-form input[type="email"] {
     width: 18em; }
