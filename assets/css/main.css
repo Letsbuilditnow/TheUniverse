@@ -129,17 +129,43 @@ body {
   font-weight: 100;
   padding:40px;
   width: 80%;
+  font-family: 'Courier New', Courier, monospace;
 }
 .image img {
-  box-shadow: -1px -1px 13px 1px rgba(0, 0, 0, 0.65);
+  /* box-shadow: -1px -1px 13px 1px rgba(0, 0, 0, 0.65);
   -webkit-box-shadow: -1px -1px 13px 1px rgba(0, 0, 0, 0.65);
-  -moz-box-shadow: -1px -1px 13px 1px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -1px -1px 13px 1px rgba(0, 0, 0, 0.65); */
+  box-shadow: -1px 10px 72px 29px rgba(0,0,0,0.66);
+-webkit-box-shadow: -1px 10px 72px 29px rgba(0,0,0,0.66);
+-moz-box-shadow: -1px 10px 72px 29px rgba(0,0,0,0.66);
   /* width:40%; */
-  height:90%;
+  height:80%;
   /* width:50%; */
   /* padding-bottom:20px; */
 }
+@media screen and (max-width:400px) {
+  .data{
+    width:100% ;
+    display: flex;
+    flex-direction: column;
+  }
+  .section-description .descriptiontext{
+    width: max-content;
+    font-size: small;
+    font-weight: 100;
+    padding:0px;
+    width: 100%;
+  }
+  .data .section-image{
+    width: 100%;
+  }
+  .section-description{
+    width: 100%;
+    display: flex;
+    align-items: center;
 
+  }
+}
 ol,
 ul {
   list-style: none;
@@ -1190,7 +1216,7 @@ button:disabled,
   color: rgba(255, 255, 255, 0.5);
   left: 4em;
   opacity: 0.5;
-  position: absolute;
+  position:inherit;
 }
 #footer .icons {
   margin: 0 0 0.5em 0;
