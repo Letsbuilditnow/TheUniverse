@@ -148,6 +148,8 @@ body {
     width:100% ;
     display: flex;
     flex-direction: column;
+    position: relative;
+    align-items: center;
   }
   .section-description .descriptiontext{
     width: max-content;
@@ -155,15 +157,26 @@ body {
     font-weight: 100;
     padding:0px;
     width: 100%;
+    font-family:sans-serif
+    
   }
   .data .section-image{
     width: 100%;
   }
   .section-description{
-    width: 100%;
+    width: 96%;
     display: flex;
     align-items: center;
-
+    
+  }
+  .data img{
+    height:180px;
+  }
+  header h1{
+    padding-top: 80%;
+  }
+  header p{
+    width: 100%;
   }
 }
 ol,
@@ -243,7 +256,7 @@ html {
 html,
 body {
   height: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   width: 100%;
 }
 @media screen and (max-height: 640px) {
