@@ -13,8 +13,9 @@ function getFetch(event){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-       let check=document.getElementById("image").src=data.url;
-            console.log(check)
+       console.log(data)
+       media_type="image"?document.getElementById("image").src=data.url:document.getElementById("video").src=data.url
+       
        document.getElementById("description").innerText=data.explanation;
 
         
