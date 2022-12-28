@@ -108,7 +108,7 @@ section {
   display: block;
 }
 iframe{
-  position: absolute;
+  position: relative;
 }
 
 body {
@@ -118,6 +118,8 @@ body {
 }
 .data .section-image{
   width: 50%;
+  border:none ;
+  
 }
 .section-image img{
   height:380px;

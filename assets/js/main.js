@@ -36,9 +36,9 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							"https://apod.nasa.gov/apod/image/2212/J7A6402-Edit-copy-sharpened.jpg": 'center',
-							'"https://apod.nasa.gov/apod/image/2212/J7A6402-Edit-copy-sharpened.jpg"': 'center',
-							'"https://apod.nasa.gov/apod/image/2212/J7A6402-Edit-copy-sharpened.jpg"': 'center'
+							'../../images/J7A6402-Edit-copy-sharpened.jpg': 'center',
+							'../../images/J7A6402-Edit-copy-sharpened.jpg': 'center',
+							'../../images/J7A6402-Edit-copy-sharpened.jpg': 'center'
 						},
 
 					// Delay.
